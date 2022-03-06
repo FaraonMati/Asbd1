@@ -5,7 +5,7 @@ using System.Net.Http;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
-//
+//git add -u
 
 namespace Crawler
 {
@@ -13,7 +13,8 @@ namespace Crawler
     {
         public async static Task Main(string[] args)
         {
-            var websiteUr1 = args[0];
+            //var websiteUr1 = args[0];
+            string websiteUr1 = "https://pja.edu.pl/";
 
             var list = new List<string>();
             var dictionary = new Dictionary<string, string>();
